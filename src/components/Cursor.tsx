@@ -1,7 +1,7 @@
 'use client'
 
 import { gsap } from 'gsap'
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 
 export function Cursor() {
   useEffect(() => {
