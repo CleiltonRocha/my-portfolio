@@ -1,7 +1,7 @@
-import ImgBoraCodar from '../assets/projetos-img/bora-codar.jpg'
-import ImgCoffeeDelivery from '../assets/projetos-img/coffee-delivery.jpg'
+// import ImgBoraCodar from '../assets/projetos-img/bora-codar.jpg'
+// import ImgCoffeeDelivery from '../assets/projetos-img/coffee-delivery.jpg'
 import ImgGithubBlog from '../assets/projetos-img/github-blog.jpg'
-import ImgHabits from '../assets/projetos-img/habits.jpg'
+// import ImgHabits from '../assets/projetos-img/habits.jpg'
 
 export function Project() {
   return (
