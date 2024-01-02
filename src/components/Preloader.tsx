@@ -36,12 +36,14 @@ export function Preloader() {
   }, [])
 
   return (
-    <div className="intro fixed left-0 top-0 z-50 flex h-screen w-screen items-center justify-center bg-black">
+    <div className="intro fixed left-0 top-0 z-50 flex h-dvh w-screen items-center justify-center bg-black">
+      <div className="absolute top-0 z-[-2] h-screen w-full bg-slate-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
+
       <h1 className="logo-header text-zinc-100">
-        <span className="logo inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-center text-6xl leading-tight tracking-tighter text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
+        <span className="logo inline-flex  bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-center leading-tight tracking-tighter text-transparent mobile:text-4xl desktop:text-6xl dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
           Cleilton
         </span>
-        <span className="logo ml-4 inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-center text-6xl leading-tight tracking-tighter text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
+        <span className="logo ml-4 inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-center leading-tight tracking-tighter text-transparent mobile:text-4xl desktop:text-6xl dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
           Rocha
         </span>
       </h1>

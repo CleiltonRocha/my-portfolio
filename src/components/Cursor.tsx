@@ -5,7 +5,7 @@ import { useEffect } from 'react'
 
 export function Cursor() {
   useEffect(() => {
-    const links = document.querySelectorAll('a')
+    const links = document.querySelectorAll('a, button')
     const cursorText = document.querySelector('.cursor-text') as HTMLElement
 
     const onMouseMove = (event: MouseEvent) => {

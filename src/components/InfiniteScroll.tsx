@@ -28,7 +28,7 @@ export function InfiniteScroll() {
                 className="mobile:h-8 mobile:w-8 desktop:h-10 desktop:w-10"
                 color={colors.indigo['300']}
               />
-              <span className="text-indigo-200">HTML</span>
+              <span className="select-none text-indigo-200">HTML</span>
             </div>
           </div>
         </li>
@@ -39,7 +39,7 @@ export function InfiniteScroll() {
                 className="mobile:h-8 mobile:w-8 desktop:h-10 desktop:w-10"
                 color={colors.indigo['300']}
               />
-              <span className="text-indigo-200">CSS</span>
+              <span className="select-none text-indigo-200">CSS</span>
             </div>
           </div>
         </li>
@@ -50,7 +50,7 @@ export function InfiniteScroll() {
                 className="mobile:h-8 mobile:w-8 desktop:h-10 desktop:w-10"
                 color={colors.indigo['300']}
               />
-              <span className="text-indigo-200">JavaScript</span>
+              <span className="select-none text-indigo-200">JavaScript</span>
             </div>
           </div>
         </li>
@@ -61,7 +61,7 @@ export function InfiniteScroll() {
                 className="mobile:h-8 mobile:w-8 desktop:h-10 desktop:w-10"
                 color={colors.indigo['300']}
               />
-              <span className="text-indigo-200">ReactJS</span>
+              <span className="select-none text-indigo-200">ReactJS</span>
             </div>
           </div>
         </li>
@@ -72,7 +72,7 @@ export function InfiniteScroll() {
                 className="mobile:h-8 mobile:w-8 desktop:h-10 desktop:w-10"
                 color={colors.indigo['300']}
               />
-              <span className="text-indigo-200">NextJS</span>
+              <span className="select-none text-indigo-200">NextJS</span>
             </div>
           </div>
         </li>
@@ -83,7 +83,7 @@ export function InfiniteScroll() {
                 className="mobile:h-8 mobile:w-8 desktop:h-10 desktop:w-10"
                 color={colors.indigo['300']}
               />
-              <span className="text-indigo-200">Angular</span>
+              <span className="select-none text-indigo-200">Angular</span>
             </div>
           </div>
         </li>
@@ -94,7 +94,7 @@ export function InfiniteScroll() {
                 className="mobile:h-8 mobile:w-8 desktop:h-10 desktop:w-10"
                 color={colors.indigo['300']}
               />
-              <span className="text-indigo-200">TailwindCSS</span>
+              <span className="select-none text-indigo-200">TailwindCSS</span>
             </div>
           </div>
         </li>
@@ -107,7 +107,7 @@ export function InfiniteScroll() {
                 className="mobile:h-8 mobile:w-8 desktop:h-10 desktop:w-10"
                 color={colors.indigo['300']}
               />
-              <span className="text-indigo-200">Bootstrap</span>
+              <span className="select-none text-indigo-200">Bootstrap</span>
             </div>
           </div>
         </li>
@@ -118,7 +118,7 @@ export function InfiniteScroll() {
                 className="mobile:h-8 mobile:w-8 desktop:h-10 desktop:w-10"
                 color={colors.indigo['300']}
               />
-              <span className="text-indigo-200">Sass</span>
+              <span className="select-none text-indigo-200">Sass</span>
             </div>
           </div>
         </li>
@@ -131,7 +131,7 @@ export function InfiniteScroll() {
                 width={32}
                 height={32}
               />
-              <span className="text-indigo-200">Styled C.</span>
+              <span className="select-none text-indigo-200">Styled C.</span>
             </div>
           </div>
         </li>
@@ -142,7 +142,7 @@ export function InfiniteScroll() {
                 className="mobile:h-8 mobile:w-8 desktop:h-10 desktop:w-10"
                 color={colors.indigo['300']}
               />
-              <span className="text-indigo-200">Figma</span>
+              <span className="select-none text-indigo-200">Figma</span>
             </div>
           </div>
         </li>
@@ -153,7 +153,7 @@ export function InfiniteScroll() {
                 className="mobile:h-8 mobile:w-8 desktop:h-10 desktop:w-10"
                 color={colors.indigo['300']}
               />
-              <span className="text-indigo-200">NodeJS</span>
+              <span className="select-none text-indigo-200">NodeJS</span>
             </div>
           </div>
         </li>
@@ -164,7 +164,7 @@ export function InfiniteScroll() {
                 className="mobile:h-8 mobile:w-8 desktop:h-10 desktop:w-10"
                 color={colors.indigo['300']}
               />
-              <span className="text-indigo-200">AdonisJS</span>
+              <span className="select-none text-indigo-200">AdonisJS</span>
             </div>
           </div>
         </li>
@@ -175,7 +175,7 @@ export function InfiniteScroll() {
                 className="mobile:h-8 mobile:w-8 desktop:h-10 desktop:w-10"
                 color={colors.indigo['300']}
               />
-              <span className="text-indigo-200">PostgreSQL</span>
+              <span className="select-none text-indigo-200">PostgreSQL</span>
             </div>
           </div>
         </li>

@@ -12,11 +12,11 @@ body {
   background: #020617;
   -webkit-font-smoothing: antialised;
   text-rendering: optimizeLegibility;
-  cursor: none;
+  /* cursor: none; */
 }
 
 a {
-  cursor: none;
+  /* cursor: none; */
 }
 
 .custom-cursor {

@@ -3,7 +3,6 @@ import 'aos/dist/aos.css'
 import AOS from 'aos'
 import { useEffect } from 'react'
 
-import { Cursor } from './components/Cursor'
 import { Preloader } from './components/Preloader'
 import { AboutMeSection } from './sections/AboutMeSection'
 import { HeroSection } from './sections/HeroSection'
@@ -18,7 +17,6 @@ export function App() {
   return (
     <>
       <Preloader />
-      <Cursor />
       <div>
         <HeroSection />
         <ProjectsSection />

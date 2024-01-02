@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 
-import profileRounded from '../assets/profile-rounded.png'
+import profileRounded from '../assets/profile.jpeg'
 import { AnimatedTitles } from '../components/AnimatedTitles'
 import { InfiniteScroll } from '../components/InfiniteScroll'
 
@@ -9,6 +9,7 @@ export function HeroSection() {
     const paragraph = document.querySelector(
       '.paragraph-animated',
     ) as HTMLElement
+
     const image = document.querySelector('.profile-rounded') as HTMLElement
 
     setTimeout(() => {
@@ -25,7 +26,7 @@ export function HeroSection() {
           <img
             src={profileRounded}
             alt="Imagem Cleilton Rocha Arredondada"
-            className="profile-rounded grayscale filter"
+            className="profile-rounded rounded-full"
             width={80}
             height={80}
           />
@@ -35,7 +36,7 @@ export function HeroSection() {
               Front-end Developer
             </span>
           </AnimatedTitles>
-          <p className="paragraph-animated mt-6 text-xl text-gray-300 mobile:max-w-[90%] mobile:text-center desktop:max-w-[60%] desktop:text-center">
+          <p className="paragraph-animated mt-6 text-lg text-slate-400 mobile:max-w-[90%] mobile:text-center desktop:max-w-[60%] desktop:text-center">
             Olá, seja muito bem-vindo ao meu portfólio! Me chamo Cleilton Rocha,
             sou um desenvolvedor Front-end apaixonado por criar experiências
             incríveis!
