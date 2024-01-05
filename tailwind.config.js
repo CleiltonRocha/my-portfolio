@@ -12,8 +12,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-time-line-white':
-          'linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 100%)',
+        'gradient-time-line':
+          'linear-gradient(180deg, transparent 0%, rgb(99,102,241,.8) 100%)',
       },
       colors: {
         gray: {

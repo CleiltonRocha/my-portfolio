@@ -2,7 +2,7 @@ import { Project } from '../components/Project'
 
 export function ProjectsSection() {
   return (
-    <section className="flex flex-col items-center gap-20 overflow-hidden mobile:px-4 mobile:py-16 desktop:px-[100px] desktop:py-[100px]">
+    <section className="flex flex-col items-center overflow-hidden mobile:px-4 mobile:py-16 desktop:px-[100px] desktop:py-[100px]">
       <div className="flex w-full flex-col items-center gap-6">
         <h2
           data-aos="fade-up"

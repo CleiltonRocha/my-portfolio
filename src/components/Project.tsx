@@ -1,4 +1,3 @@
-// import ImgCoffeeDelivery from '../assets/projetos-img/coffee-delivery.jpg'
 import { ArrowUpRight, GithubLogo } from 'phosphor-react'
 import {
   Css3PlainIcon,
@@ -14,21 +13,21 @@ import prismaIcon from '../assets/icons/prisma.svg'
 import radixIcon from '../assets/icons/radix-ui.svg'
 import styledComponentsIcon from '../assets/icons/styled-components.svg'
 import ImgBoraCodar from '../assets/projetos-img/bora-codar.jpg'
+import ImgCoffeeDelivery from '../assets/projetos-img/coffee-delivery.jpg'
 import ImgGithubBlog from '../assets/projetos-img/github-blog.jpg'
 import ImgHabits from '../assets/projetos-img/habits.jpg'
 
 export function Project() {
   return (
     <>
-      <div className="flex w-full items-center gap-20 mobile:flex-col desktop:flex-row">
-        <img
-          src={ImgGithubBlog}
-          alt=""
-          className="rounded-xl"
-          data-aos="fade-left"
-          width={800}
-        />
-        <div className="flex h-full flex-col flex-wrap gap-4">
+      <div
+        data-aos="fade-right"
+        data-aos-duration="700"
+        data-aos-once="true"
+        className="mt-16 flex w-full items-center gap-20 mobile:flex-col desktop:flex-row"
+      >
+        <img src={ImgGithubBlog} alt="" className="rounded-xl" width={800} />
+        <div>
           <div className="mb-4 flex items-center justify-start gap-3">
             <div className="w-fit overflow-hidden rounded-lg border border-transparent bg-gradient-to-b from-slate-700 to-slate-700/30 bg-origin-border">
               <div className="flex items-center justify-center gap-2 bg-gradient-to-b from-slate-900 to-slate-900/40 px-6 py-2 text-slate-300">
@@ -78,14 +77,13 @@ export function Project() {
           </div>
         </div>
       </div>
-      <div className="mt-16 flex w-full items-center gap-16 mobile:flex-col desktop:flex-row-reverse">
-        <img
-          src={ImgHabits}
-          alt=""
-          className="rounded-xl"
-          data-aos="fade-left"
-          width={800}
-        />
+      <div
+        data-aos="fade-left"
+        data-aos-duration="700"
+        data-aos-once="true"
+        className="flex w-full items-center gap-16 mobile:mt-10 mobile:flex-col desktop:mt-20 desktop:flex-row-reverse"
+      >
+        <img src={ImgHabits} alt="" className="rounded-xl" width={800} />
         <div className="flex h-full flex-col flex-wrap gap-4">
           <div className="mb-4 flex flex-wrap items-center justify-start gap-3">
             <div className="w-fit overflow-hidden rounded-lg border border-transparent bg-gradient-to-b from-slate-700 to-slate-700/30 bg-origin-border">
@@ -169,14 +167,13 @@ export function Project() {
           </div>
         </div>
       </div>
-      <div className="mt-16 flex w-full items-center gap-16 mobile:flex-col desktop:flex-row">
-        <img
-          src={ImgBoraCodar}
-          alt=""
-          className="rounded-xl"
-          data-aos="fade-left"
-          width={800}
-        />
+      <div
+        data-aos="fade-right"
+        data-aos-duration="700"
+        data-aos-once="true"
+        className="flex w-full items-center gap-16 mobile:mt-10 mobile:flex-col desktop:mt-20 desktop:flex-row"
+      >
+        <img src={ImgBoraCodar} alt="" className="rounded-xl" width={800} />
         <div className="flex h-full flex-col flex-wrap gap-4">
           <div className="mb-4 flex items-center justify-start gap-3">
             <div className="w-fit overflow-hidden rounded-lg border border-transparent bg-gradient-to-b from-slate-700 to-slate-700/30 bg-origin-border">
@@ -203,7 +200,7 @@ export function Project() {
                   className="mobile:h-8 mobile:w-8 desktop:h-10 desktop:w-10"
                   color={colors.indigo['300']}
                 />
-                <span className="text-sm text-indigo-200">JavaScript</span>
+                <span className="text-sm text-indigo-200">JS</span>
               </div>
             </div>
           </div>
@@ -225,6 +222,71 @@ export function Project() {
             </a>
             <a
               href="https://github.com/CleiltonRocha/desafios-bora-codar"
+              target="_blank"
+              className="flex w-fit cursor-pointer items-center justify-center gap-3 rounded-md bg-slate-800 px-8 py-3 text-sm font-semibold tracking-tight text-slate-100 transition ease-in hover:bg-slate-700 active:scale-95"
+              rel="noreferrer"
+            >
+              <GithubLogo weight="bold" size={18} /> Código fonte
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        data-aos="fade-left"
+        data-aos-duration="700"
+        data-aos-once="true"
+        className="flex w-full items-center gap-16 mobile:mt-10 mobile:flex-col desktop:mt-20 desktop:flex-row-reverse"
+      >
+        <img
+          src={ImgCoffeeDelivery}
+          alt=""
+          className="rounded-xl"
+          width={800}
+        />
+        <div className="flex h-full flex-col flex-wrap gap-4">
+          <div className="mb-4 flex flex-wrap items-center justify-start gap-3">
+            <div className="w-fit overflow-hidden rounded-lg border border-transparent bg-gradient-to-b from-slate-700 to-slate-700/30 bg-origin-border">
+              <div className="flex items-center justify-center gap-2 bg-gradient-to-b from-slate-900 to-slate-900/40 px-6 py-2 text-slate-300">
+                <ReactOriginalIcon
+                  className="mobile:h-8 mobile:w-8 desktop:h-10 desktop:w-10"
+                  color={colors.indigo['300']}
+                />
+                <span className="text-sm text-indigo-200">ReactJS</span>
+              </div>
+            </div>
+            <div className="w-fit overflow-hidden rounded-lg border border-transparent bg-gradient-to-b from-slate-700 to-slate-700/30 bg-origin-border">
+              <div className="flex items-center justify-center gap-2 bg-gradient-to-b from-slate-900 to-slate-900/40 px-6 py-2 text-slate-300">
+                <img
+                  src={styledComponentsIcon}
+                  alt="Ícone da biblioteca styled components"
+                  width={20}
+                  height={20}
+                />
+                <span className="text-sm text-indigo-200">Styled C.</span>
+              </div>
+            </div>
+          </div>
+          <h2 className="inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text text-center text-3xl font-semibold leading-tight tracking-tighter text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
+            Coffee Delivery
+          </h2>
+          <p className=" text-left text-lg text-slate-400">
+            Nesta aplicação, os usuários podem visualizar todos os cafés
+            disponíveis e adicioná-los ao carrinho com a quantidade desejada.
+            Após adicionar itens ao carrinho, os usuários preencherão um
+            formulário com seu endereço e método de pagamento. Em seguida, eles
+            só precisam confirmar o pedido! ☕
+          </p>
+          <div className="mt-4 flex items-center gap-3">
+            <a
+              href="https://coffee-delivery-ionp7fkpr-cleiltonrocha.vercel.app"
+              target="_blank"
+              className="flex w-fit items-center justify-center gap-3 rounded-md bg-gradient-to-br from-indigo-400 to-indigo-600 px-8 py-3 text-sm font-semibold tracking-tight text-slate-100 transition ease-in hover:shadow-2xl hover:shadow-indigo-500/40 active:scale-95"
+              rel="noreferrer"
+            >
+              Visitar <ArrowUpRight weight="bold" size={18} />
+            </a>
+            <a
+              href="https://github.com/CleiltonRocha/coffee-delivery"
               target="_blank"
               className="flex w-fit cursor-pointer items-center justify-center gap-3 rounded-md bg-slate-800 px-8 py-3 text-sm font-semibold tracking-tight text-slate-100 transition ease-in hover:bg-slate-700 active:scale-95"
               rel="noreferrer"
