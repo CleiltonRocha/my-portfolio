@@ -19,12 +19,12 @@ import ImgHabits from '../assets/projetos-img/habits.jpg'
 
 export function Project() {
   return (
-    <>
+    <div className="mt-16 flex flex-col mobile:gap-10 desktop:gap-24">
       <div
         data-aos="fade-right"
         data-aos-duration="700"
         data-aos-once="true"
-        className="mt-16 flex w-full items-center gap-20 mobile:flex-col desktop:flex-row"
+        className="flex w-full items-center gap-10 mobile:flex-col desktop:flex-row"
       >
         <img src={ImgGithubBlog} alt="" className="rounded-xl" width={800} />
         <div>
@@ -81,7 +81,7 @@ export function Project() {
         data-aos="fade-left"
         data-aos-duration="700"
         data-aos-once="true"
-        className="flex w-full items-center gap-16 mobile:mt-10 mobile:flex-col desktop:mt-20 desktop:flex-row-reverse"
+        className="flex w-full items-center gap-10 mobile:mt-10 mobile:flex-col desktop:flex-row-reverse"
       >
         <img src={ImgHabits} alt="" className="rounded-xl" width={800} />
         <div className="flex h-full flex-col flex-wrap gap-4">
@@ -97,7 +97,6 @@ export function Project() {
                 </span>
               </div>
             </div>
-
             <div className="w-fit overflow-hidden rounded-lg border border-transparent bg-gradient-to-b from-slate-700 to-slate-700/30 bg-origin-border">
               <div className="flex items-center justify-center gap-2 bg-gradient-to-b from-slate-900 to-slate-900/40 px-6 py-2 text-slate-300">
                 <NodejsPlainIcon
@@ -171,7 +170,7 @@ export function Project() {
         data-aos="fade-right"
         data-aos-duration="700"
         data-aos-once="true"
-        className="flex w-full items-center gap-16 mobile:mt-10 mobile:flex-col desktop:mt-20 desktop:flex-row"
+        className="flex w-full items-center gap-10 mobile:mt-10 mobile:flex-col desktop:flex-row"
       >
         <img src={ImgBoraCodar} alt="" className="rounded-xl" width={800} />
         <div className="flex h-full flex-col flex-wrap gap-4">
@@ -235,7 +234,7 @@ export function Project() {
         data-aos="fade-left"
         data-aos-duration="700"
         data-aos-once="true"
-        className="flex w-full items-center gap-16 mobile:mt-10 mobile:flex-col desktop:mt-20 desktop:flex-row-reverse"
+        className="flex w-full items-center gap-10 mobile:mt-10 mobile:flex-col desktop:flex-row-reverse"
       >
         <img
           src={ImgCoffeeDelivery}
@@ -296,6 +295,6 @@ export function Project() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }

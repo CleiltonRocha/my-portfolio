@@ -42,6 +42,17 @@ module.exports = {
         xxl: '96px',
       },
       keyframes: {
+        ripple: {
+          '0%': {
+            boxShadow: '0 0 0 0 #fff4, 0 0 0 0 #fff4',
+          },
+          '80%': {
+            boxShadow: '0 0 0 30px #fff0, 0 0 0 60px #fff0',
+          },
+          '100%': {
+            boxShadow: '0 0 0 0 #fff0, 0 0 0 0 #fff0',
+          },
+        },
         reveal: {
           '0%': {
             transform: 'translate(0,100%)',
@@ -62,6 +73,7 @@ module.exports = {
         },
       },
       animation: {
+        ripple: 'ripple 3s infinite',
         reveal: 'reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s',
         infiniteScroll: 'infiniteScroll 40s linear infinite',
       },

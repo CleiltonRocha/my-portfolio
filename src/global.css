@@ -125,3 +125,7 @@ ul > li:nth-child(7) {
 ul.alt li{
   animation-direction: reverse;
 }
+
+.bg-radial-gradient {
+  background: radial-gradient(131.82% 109.9% at 50% 10%,transparent 37.41%,#6366f1 69.27%,#fff 100%);
+}
