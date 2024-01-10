@@ -71,8 +71,20 @@ module.exports = {
             transform: 'translate(600%)',
           },
         },
+        float: {
+          '0%': {
+            transform: 'translateY(0px)',
+          },
+          '50%': {
+            transform: 'translateY(-20px)',
+          },
+          '100%': {
+            transform: 'translateY(0px)',
+          },
+        },
       },
       animation: {
+        float: 'float 5s infinite',
         ripple: 'ripple 3s infinite',
         reveal: 'reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s',
         infiniteScroll: 'infiniteScroll 40s linear infinite',

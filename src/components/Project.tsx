@@ -12,10 +12,10 @@ import colors from 'tailwindcss/colors'
 import prismaIcon from '../assets/icons/prisma.svg'
 import radixIcon from '../assets/icons/radix-ui.svg'
 import styledComponentsIcon from '../assets/icons/styled-components.svg'
-import ImgBoraCodar from '../assets/projetos-img/bora-codar.jpg'
-import ImgCoffeeDelivery from '../assets/projetos-img/coffee-delivery.jpg'
-import ImgGithubBlog from '../assets/projetos-img/github-blog.jpg'
-import ImgHabits from '../assets/projetos-img/habits.jpg'
+import ImgBoraCodar from '../assets/projects/bora-codar.jpg'
+import ImgCoffeeDelivery from '../assets/projects/coffee-delivery.jpg'
+import ImgGithubBlog from '../assets/projects/github-blog.jpg'
+import ImgHabits from '../assets/projects/habits.jpg'
 
 export function Project() {
   return (

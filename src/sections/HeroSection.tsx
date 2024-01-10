@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 
+import bgStars from '../assets/bg-stars.svg'
 import profileRounded from '../assets/profile.jpeg'
 import { AnimatedTitles } from '../components/AnimatedTitles'
 import { InfiniteScroll } from '../components/InfiniteScroll'
@@ -21,6 +22,7 @@ export function HeroSection() {
   return (
     <section className="relative flex h-screen w-full flex-col justify-center overflow-hidden mobile:items-center mobile:px-4 mobile:pb-16 desktop:items-center desktop:px-10">
       <div className="absolute top-0 z-[-2] h-screen w-full bg-slate-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
+      <img src={bgStars} alt="" className="absolute top-0 h-full w-full" />
       <div className="flex h-full items-center justify-center mobile:gap-8 desktop:gap-6">
         <div className="flex flex-col mobile:items-center mobile:gap-2 desktop:items-center desktop:gap-2 ">
           <img
@@ -43,45 +45,6 @@ export function HeroSection() {
           </p>
         </div>
       </div>
-      {/* <div className="mt-16 flex items-start justify-start gap-4">
-         <a
-          href="https://www.linkedin.com/in/cleilton-rocha/"
-          aria-label="Link para Linkedin"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <div className="w-fit h-fit border border-transparent bg-gradient-to-b from-gray-600 to-gray-600/30 bg-origin-border overflow-hidden rounded-full">
-            <div className="flex items-center justify-center bg-gradient-to-b from-neutral-950 to-gray-950/40 h-[60px] w-[60px]">
-              <Linkedin size={24} className="text-slate-300" />
-            </div>
-          </div>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/cleilton-rocha/"
-          aria-label="Link para Linkedin"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <div className="w-fit h-fit border border-transparent bg-gradient-to-b from-gray-600 to-gray-600/30 bg-origin-border overflow-hidden rounded-full">
-            <div className="flex items-center justify-center bg-gradient-to-b from-neutral-950 to-gray-950/40 h-[60px] w-[60px]">
-              <GithubIcon size={24} className="text-slate-300" />
-            </div>
-          </div>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/cleilton-rocha/"
-          aria-label="Link para Linkedin"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <div className="w-fit h-fit border border-transparent bg-gradient-to-b from-gray-600 to-gray-600/30 bg-origin-border overflow-hidden rounded-full">
-            <div className="flex items-center justify-center bg-gradient-to-b from-neutral-950 to-gray-950/40 h-[60px] w-[60px]">
-              <Dribbble size={24} className="text-slate-300" />
-            </div>
-          </div>
-        </a> 
-      </div>
-      */}
       <InfiniteScroll />
     </section>
   )
