@@ -5,7 +5,7 @@ type Props = {
   className?: string
 }
 
-export function AnimatedTitles({ children, className }: Props) {
+export function AnimatedHeading({ children, className }: Props) {
   useEffect(() => {
     const title = document.querySelector('.title') as HTMLElement
 

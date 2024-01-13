@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 
 import bgStars from '../assets/bg-stars.svg'
 import profileRounded from '../assets/profile.jpeg'
-import { AnimatedTitles } from '../components/AnimatedTitles'
+import { AnimatedHeading } from '../components/AnimatedHeading'
 import { InfiniteScroll } from '../components/InfiniteScroll'
 
 export function HeroSection() {
@@ -32,12 +32,12 @@ export function HeroSection() {
             width={80}
             height={80}
           />
-          <AnimatedTitles className="mobile:text-center desktop:text-center">
+          <AnimatedHeading className="mobile:text-center desktop:text-center">
             <span className="">UI Designer</span> &<br />
             <span className="inline-flex bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text leading-tight text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
               Front-end Developer
             </span>
-          </AnimatedTitles>
+          </AnimatedHeading>
           <p className="paragraph-animated mt-6 text-lg text-slate-400 mobile:max-w-[90%] mobile:text-center desktop:max-w-[60%] desktop:text-center">
             Olá, seja muito bem-vindo ao meu portfólio! Me chamo Cleilton Rocha,
             sou um desenvolvedor Front-end apaixonado por criar experiências

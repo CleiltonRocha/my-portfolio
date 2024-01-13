@@ -43,23 +43,31 @@ export function AboutMeSection() {
           <div className="flex items-start justify-start gap-4">
             <div className="flex flex-col items-center justify-center gap-1">
               <div className="flex items-center justify-center rounded-full bg-gradient-to-b from-indigo-400 to-indigo-500 p-4 shadow-[0px_10px_80px_4px_rgba(99,102,241,.6)]">
-                <Briefcase size={24} color={colors.slate['100']} />
+                <Briefcase
+                  size={24}
+                  color={colors.slate['100']}
+                  weight="bold"
+                />
               </div>
               <div className="h-[165px] w-1 rounded-md bg-gradient-time-line"></div>
               <div className="flex items-center justify-center rounded-full bg-gradient-to-b from-indigo-400 to-indigo-500 p-4 shadow-[0px_10px_80px_4px_rgba(99,102,241,.6)]">
-                <Briefcase size={24} color={colors.slate['100']} />
+                <Briefcase
+                  size={24}
+                  color={colors.slate['100']}
+                  weight="bold"
+                />
               </div>
               <div className="h-[165px] w-1 rounded-md bg-gradient-time-line"></div>
               <div className="flex items-center justify-center rounded-full bg-gradient-to-b from-indigo-400 to-indigo-500 p-4 shadow-[0px_10px_80px_4px_rgba(99,102,241,.6)]">
-                <Book size={24} color={colors.slate['100']} />
+                <Book size={24} color={colors.slate['100']} weight="bold" />
               </div>
               <div className="h-[165px] w-1 rounded-md bg-gradient-time-line"></div>
               <div className="flex items-center justify-center rounded-full bg-gradient-to-b from-indigo-400 to-indigo-500 p-4 shadow-[0px_10px_80px_4px_rgba(99,102,241,.6)]">
-                <Book size={24} color={colors.slate['100']} />
+                <Book size={24} color={colors.slate['100']} weight="bold" />
               </div>
               <div className="h-[165px] w-1 rounded-md bg-gradient-time-line"></div>
               <div className="flex items-center justify-center rounded-full bg-gradient-to-b from-indigo-400 to-indigo-500 p-4 shadow-[0px_10px_80px_4px_rgba(99,102,241,.6)]">
-                <Book size={24} color={colors.slate['100']} />
+                <Book size={24} color={colors.slate['100']} weight="bold" />
               </div>
               <div className="h-[165px] w-1 rounded-md bg-gradient-time-line"></div>
             </div>
