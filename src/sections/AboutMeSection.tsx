@@ -12,7 +12,7 @@ export function AboutMeSection() {
       className="relative w-full items-start pb-20 pt-20 mobile:flex mobile:flex-col mobile:gap-6 mobile:px-4 desktop:grid desktop:grid-cols-2 desktop:gap-16 desktop:px-16"
     >
       <img
-        src={ProfileImage}
+        src="https://media.licdn.com/dms/image/v2/D4D03AQGtqI_V1mUpww/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1732245525184?e=1746057600&v=beta&t=c3N8qbDJTPsoRejx-dYM8RkmejmdSsQh2w7pf8i47qE"
         alt="Foto de Perfil - Cleilton Rocha"
         className="sticky rounded-2xl desktop:top-10"
       />
