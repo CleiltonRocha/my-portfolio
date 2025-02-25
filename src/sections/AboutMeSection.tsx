@@ -1,8 +1,6 @@
 import { Book, Briefcase } from 'phosphor-react'
 import colors from 'tailwindcss/colors'
 
-import ProfileImage from '../assets/profile.jpeg'
-
 export function AboutMeSection() {
   return (
     <section
