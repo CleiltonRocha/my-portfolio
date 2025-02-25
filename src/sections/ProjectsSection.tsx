@@ -14,7 +14,6 @@ import radixIcon from '../assets/icons/radix-ui.svg'
 import styledComponentsIcon from '../assets/icons/styled-components.svg'
 import ImgBoraCodar from '../assets/projects/bora-codar.jpg'
 import ImgCoffeeDelivery from '../assets/projects/coffee-delivery.jpg'
-import ImgGithubBlog from '../assets/projects/github-blog.jpg'
 import ImgHabits from '../assets/projects/habits.jpg'
 
 export function ProjectsSection() {
