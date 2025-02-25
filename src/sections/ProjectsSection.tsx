@@ -46,7 +46,7 @@ export function ProjectsSection() {
           data-aos-once="true"
           className="flex w-full items-center gap-10 mobile:flex-col desktop:flex-row"
         >
-          <img src={ImgGithubBlog} alt="" className="rounded-xl" width={800} />
+          <img src="https://media.licdn.com/dms/image/v2/D4D03AQGtqI_V1mUpww/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1732245525184?e=1746057600&v=beta&t=c3N8qbDJTPsoRejx-dYM8RkmejmdSsQh2w7pf8i47qE" alt="" className="rounded-xl" width={800} />
           <div>
             <div className="mb-4 flex items-center justify-start gap-3">
               <div className="w-fit overflow-hidden rounded-lg border border-transparent bg-gradient-to-b from-slate-700 to-slate-700/30 bg-origin-border">
