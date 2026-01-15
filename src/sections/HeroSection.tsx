@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 
 import bgStars from '../assets/bg-stars.svg'
-import profileRounded from '../assets/profile.jpeg'
+import profileRounded from '../assets/profile.jpg'
 import { AnimatedHeading } from '../components/AnimatedHeading'
 import { InfiniteScroll } from '../components/InfiniteScroll'
 
