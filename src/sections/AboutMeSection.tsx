@@ -11,7 +11,7 @@ export function AboutMeSection() {
       className="relative w-full items-start pb-20 pt-20 mobile:flex mobile:flex-col mobile:gap-6 mobile:px-4 desktop:grid desktop:grid-cols-2 desktop:gap-16 desktop:px-16"
     >
       <img
-        src=""
+        src={ProfileImageUrl}
         alt="Foto de Perfil - Cleilton Rocha"
         className="sticky rounded-2xl desktop:top-10"
       />
